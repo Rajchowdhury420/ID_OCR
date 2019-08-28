@@ -1,4 +1,5 @@
 # import the necessary packages
+
 from PIL import Image
 import pytesseract
 import argparse
@@ -39,3 +40,5 @@ print("Name: ",strs[0])
 print("Course: ",strs[1])
 print("Department: ",strs[2])
 print("Roll Number: ",strs[3])
+
+ # Code Done
