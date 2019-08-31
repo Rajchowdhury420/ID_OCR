@@ -22,6 +22,7 @@ h0,w0 = image.shape[:2]
 h = int(h0/4) + 5
 
 
+
 strs = ["" for x in range(4)]
 
 for i in range(4):
