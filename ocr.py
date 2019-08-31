@@ -12,7 +12,6 @@ ap = argparse.ArgumentParser()
 ap.add_argument("-i", "--image", required=True,help="path to input image to be OCR'd")
 args = vars(ap.parse_args())
 
-
 image = cv2.imread(args["image"])
 image = imutils.resize(image,1024,665)
 image = image[200:440,290:660]
