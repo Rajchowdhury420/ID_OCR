@@ -8,6 +8,7 @@
 
 ## Dependencies
 
+
 * PIL
 
 * pytesseract
