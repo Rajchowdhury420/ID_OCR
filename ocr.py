@@ -23,6 +23,7 @@ h = int(h0/4) + 5
 
 strs = ["" for x in range(4)]
 
+
 for i in range(4):
     im = image[h*i:h*(i+1),:]
     gray = cv2.cvtColor(im,cv2.COLOR_BGR2GRAY)
